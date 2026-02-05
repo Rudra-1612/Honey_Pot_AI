@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HoneyPot Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>🚨 HoneyPot AI Dashboard</h1>
+
+  <div class="cards">
+    <div class="card">Total Scams<br><span id="scams">0</span></div>
+    <div class="card">Active Chats<br><span id="chats">0</span></div>
+  </div>
+
+  <canvas id="riskChart"></canvas>
+
+  <h3>Logs</h3>
+  <pre id="logs"></pre>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
