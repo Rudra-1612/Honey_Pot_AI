@@ -1,13 +1,2 @@
-# Honey Pot AI
+An AI-powered autonomous honey-pot system that detects scam messages in real time and strategically engages scammers through multi-turn conversations to extract actionable intelligence such as bank accounts, UPI IDs, phishing links, and fraud patterns.
 
-Scam detection + phishing analysis system using FastAPI.
-
-## Install
-pip install -r requirements.txt
-
-## Run
-uvicorn app.main:app --reload
-
-## Open
-API → http://127.0.0.1:8000  
-Dashboard → http://127.0.0.1:8000/dashboard
